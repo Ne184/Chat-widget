@@ -27,3 +27,20 @@ html {
   font-size: 10rem;
   flex-flow: column;
 }
+div {
+  border-style: solid;//default border style is none, set it differently to appear
+  border-bottom: 5px;
+  border-top: 5px;
+  border-left: 5px;
+  border-right: 5px;
+  border-color: black;
+  width: 100px;
+  height: 100px;
+}
+
+.chat {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  border-style:solid;
+}
